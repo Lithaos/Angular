@@ -1,0 +1,4 @@
+<h1>User</h1>
+  <input type='text' class='form-control' (change)="onChangeName()" [(ngModel)]="username">
+<p>{{ username }}</p>
+<button class="btn btn-primary" [disabled]="isEmpty" (click)="onClickReset()">Reset user</button>
