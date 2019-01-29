@@ -9,6 +9,7 @@ import { ServersComponent } from './servers/servers.component';
 import { WarningComponent } from './warning/warning.component';
 import { SuccessComponent } from './success/success.component';
 import { UserComponent } from './user/user.component';
+import { Task3Component } from './task3/task3.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { UserComponent } from './user/user.component';
     ServersComponent,
     WarningComponent,
     SuccessComponent,
-    UserComponent
+    UserComponent,
+    Task3Component
   ],
   imports: [
     BrowserModule,

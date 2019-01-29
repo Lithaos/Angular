@@ -1,0 +1,3 @@
+<button class="btn btn-primary" (click)="buttonClicked()">Display Details</button>
+<p *ngIf="isClicked">Secred Password</p>
+<p *ngFor="let click of clicks; let i = index" [ngStyle]= "{backgroundColor: i>=5 ? 'blue' : 'transparent'}" [ngClass] = "{colored : i>=5} " >{{click}}</p>
