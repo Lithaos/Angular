@@ -10,6 +10,9 @@ import { WarningComponent } from './warning/warning.component';
 import { SuccessComponent } from './success/success.component';
 import { UserComponent } from './user/user.component';
 import { Task3Component } from './task3/task3.component';
+import { GameControlComponent } from './game-control/game-control.component';
+import { OddComponent } from './odd/odd.component';
+import { EvenComponent } from './even/even.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +22,10 @@ import { Task3Component } from './task3/task3.component';
     WarningComponent,
     SuccessComponent,
     UserComponent,
-    Task3Component
+    Task3Component,
+    GameControlComponent,
+    OddComponent,
+    EvenComponent
   ],
   imports: [
     BrowserModule,
